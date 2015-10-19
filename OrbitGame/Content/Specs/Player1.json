@@ -1,0 +1,173 @@
+	{
+	  "Description" : "FirstAnimation", 
+      "sType" : "Animated",
+	  "SpriteMaps" : 
+	  [
+		{
+            "SpriteMapName" : "Sprites/player1",
+            "Columns" : 4, 
+            "Rows" : 4
+		}
+	  ],
+	  "AnimationSequences" : 
+	  [
+		{	
+			"AnimationName" : "idle",
+			"AnimationTime" : 1,
+			"AnimationLoop" : 0,
+			"AnimationFrames" : 
+			[
+				{	
+					"weight" : 1,				
+					"map" : 0,
+					"row" : 0,
+					"column" : 0
+				}
+			]
+		},
+		{	
+			"AnimationName" : "idleleft",
+			"AnimationTime" : 1,
+			"AnimationLoop" : 0,
+			"AnimationFrames" : 
+			[
+				{	
+					"weight" : 1,				
+					"map" : 0,
+					"row" : 2,
+					"column" : 2
+				}
+			]
+		},
+		{	
+			"AnimationName" : "idleright",
+			"AnimationTime" : 1,
+			"AnimationLoop" : 0,
+			"AnimationFrames" : 
+			[
+				{	
+					"weight" : 1,				
+					"map" : 0,
+					"row" : 1,
+					"column" : 3
+				}
+			]
+		},
+		{	
+			"AnimationName" : "idleup",
+			"AnimationTime" : 1,
+			"AnimationLoop" : 0,
+			"AnimationFrames" : 
+			[
+				{	
+					"weight" : 1,				
+					"map" : 0,
+					"row" : 1,
+					"column" : 0
+				}
+			]
+		},
+		{	
+			"AnimationName" : "walkdown",
+			"AnimationTime" : 400,
+			"AnimationLoop" : 1,
+			"AnimationFrames" : 
+			[
+				{	
+					"weight" : 1,
+					"map" : 0,
+					"row" : 0,
+					"column" : 2
+				},
+				{	
+					"weight" : 1,				
+					"map" : 0,
+					"row" : 0,
+					"column" : 3
+				}
+			]
+		},
+		{	
+			"AnimationName" : "walkleft",
+			"AnimationTime" : 400,
+			"AnimationLoop" : 1,
+			"AnimationFrames" : 
+			[
+				{	
+					"weight" : 1,
+					"map" : 0,
+					"row" : 2,
+					"column" : 3
+				},
+				{	
+					"weight" : 1,				
+					"map" : 0,
+					"row" : 3,
+					"column" : 0
+				}
+			]
+		},
+		{	
+			"AnimationName" : "walkright",
+			"AnimationTime" : 400,
+			"AnimationLoop" : 1,
+			"AnimationFrames" : 
+			[
+				{	
+					"weight" : 1,
+					"map" : 0,
+					"row" : 2,
+					"column" : 0
+				},
+				{	
+					"weight" : 1,				
+					"map" : 0,
+					"row" : 2,
+					"column" : 1
+				}
+			]
+		},
+		{	
+			"AnimationName" : "walkup",
+			"AnimationTime" : 400,
+			"AnimationLoop" : 1,
+			"AnimationFrames" : 
+			[
+				{	
+					"weight" : 1,
+					"map" : 0,
+					"row" : 1,
+					"column" : 1
+				},
+				{	
+					"weight" : 1,				
+					"map" : 0,
+					"row" : 1,
+					"column" : 2
+				}
+			]
+		},
+		{	
+			"AnimationName" : "die",
+			"AnimationTime" : 400,
+			"AnimationLoop" : 1,
+			"AnimationFrames" : 
+			[
+				{	
+					"weight" : 1,
+					"map" : 0,
+					"row" : 3,
+					"column" : 1
+				},
+				{	
+					"weight" : 1,				
+					"map" : 0,
+					"row" : 3,
+					"column" : 2
+				}
+			]
+		}
+
+	  ]
+	  
+	}

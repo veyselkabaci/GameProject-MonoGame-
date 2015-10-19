@@ -1,0 +1,41 @@
+﻿{
+    "Description": "FirstAnimation",
+    "sType": "Animated",
+    "SpriteMaps": [
+        {
+            "SpriteMapName": "Sprites/Missile1",
+            "Columns": 1,
+            "Rows": 1
+        }
+    ],
+    "AnimationSequences": [
+        {
+            "AnimationName": "idle",
+            "AnimationTime": 400,
+            "AnimationLoop": 1,
+            "AnimationFrames": [
+                {
+                    "weight": 1,
+                    "map": 0,
+                    "row": 0,
+                    "column": 0,
+                    "colliders": 
+                    [
+                        {
+                            "group": "Missile",
+                            "x": 5,
+                            "y": 2,
+                            "width": 10,
+                            "height": 20
+                        }
+
+                    ]
+                }
+
+            ]
+        }
+
+    ]
+	  
+	}
+

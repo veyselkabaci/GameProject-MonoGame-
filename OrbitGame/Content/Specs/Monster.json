@@ -1,0 +1,91 @@
+	{
+	  "Description" : "FirstAnimation", 
+      "sType" : "Animated",
+	  "SpriteMaps" : 
+	  [
+		{
+            "SpriteMapName" : "Sprites/monster",
+            "Columns" : 3, 
+            "Rows" : 2
+		}
+	  ],
+	  "AnimationSequences" : 
+	  [
+		{	
+			"AnimationName" : "idle",
+			"AnimationTime" : 400,
+			"AnimationLoop" : 1,
+			"AnimationFrames" : 
+			[
+				{	
+					"weight" : 1,
+					"map" : 0,
+					"row" : 0,
+					"column" : 0
+				},
+				{	
+					"weight" : 1,				
+					"map" : 0,
+					"row" : 0,
+					"column" : 1
+				},
+				{	
+					"weight" : 1,
+					"map" : 0,
+					"row" : 0,
+					"column" : 2
+				},
+				{	
+					"weight" : 1,
+					"map" : 0,
+					"row" : 1,
+					"column" : 0
+				},
+				{	
+					"weight" : 1,
+					"map" : 0,
+					"row" : 1,
+					"column" : 1
+				},
+				{	
+					"weight" : 1,
+					"map" : 0,
+					"row" : 1,
+					"column" : 2
+				},
+				{	
+					"weight" : 1,
+					"map" : 0,
+					"row" : 1,
+					"column" : 1
+				},
+				{	
+					"weight" : 1,				
+					"map" : 0,
+					"row" : 1,
+					"column" : 0
+				},
+				{	
+					"weight" : 1,
+					"map" : 0,
+					"row" : 0,
+					"column" : 2
+				},
+				{	
+					"weight" : 1,
+					"map" : 0,
+					"row" : 0,
+					"column" : 1
+				},
+				{	
+					"weight" : 1,
+					"map" : 0,
+					"row" : 0,
+					"column" : 0
+				}
+			]
+		}
+
+	  ]
+	  
+	}
